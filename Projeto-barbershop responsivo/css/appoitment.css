@@ -78,7 +78,7 @@
     }
 
     .appointment textarea {
-        margin: 0 10px;
+        margin: 0px 0px 0px 4px;
     }
     .appointment button {
         margin: 10px 10px;
@@ -86,6 +86,14 @@
     
     .appointment h2 {
         font-size: 40px;
+    }
+    
+    .appointment .personal-data input, .appointment .personal-data select, appointment textarea {
+        padding: 10px;
+        outline: none;
+        border: none;
+        width: 98%;
+        border-radius: 3px;
     }
     
 }
